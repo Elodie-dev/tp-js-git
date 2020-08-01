@@ -2,10 +2,24 @@
 
 function say_my_name(name = "Toto") {
 
-        console.log("My name is " + name +" !");
+        if (typeof(name) == "string") {
+                
+                console.log("My name is " + name +" !");
+
+        }
+
+        else{
+
+                console.log("Erreur");
+
+        }
+
+        
     
 }
 
 say_my_name("Elodie");
+
+say_my_name(12);
 
 say_my_name();
