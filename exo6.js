@@ -2,8 +2,10 @@
 
 function print_something(){
 
-    console.log("Something");
+    console.log("Something\n");
 
 }
 
+print_something();
+print_something();
 print_something();
